@@ -1,0 +1,17 @@
+
+
+
+PROTOCOL
+--------
+
+Mobile App/µBar ---> Central Server
+-----------------------------------
+POST   | Login/Logout
+POST   | Make order
+POST   | Change setting
+POST   | Change of inventory
+
+HEAD   | Refresh needed? (hash)
+
+GET    | Get user data
+GET    | Get possible recipes

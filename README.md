@@ -3,7 +3,7 @@
 ## TODO (everything!)
 ### Central Server
 1. Node.js server backend (Linux server)
-  * Define REST API calls
+  * Define RESTful API calls (HIGH PRIORITY!)
 
 ### Mobile App
 1. iOS
