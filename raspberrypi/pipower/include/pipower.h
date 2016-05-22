@@ -34,39 +34,41 @@ bool getTime( char *time );
 bool setTime( const char *time );
 
 /*
- * Gets the value of the the alarm number alarmNum from the
- * pipower board
+ * Gets the value of the next power up time
  *
- * Input: the alarmNum ( 0 based, either 0 or 1 )
+ * @out alarmVal - string of time to power up (HH:MM)
  *
  * Returns true on success, placing the value of the alarm
  * in the alarmVal pointer
  */
-bool getAlarm( int alarmNum, char *alarmVal );
+bool getPowerUpTime( char *alarmVal );
 
 /*
- * Sets the alarm alramNum to the value specified in 
- * alarmVal string
+ * Sets the value of the next power up time
+ * 
+ * @param alarmVal - string of time to power up (HH:MM)
  *
  * Returns true on success, false otherwise
  */
-bool setAlarm( int alarmNum, const char *alarmVal );
+bool setPowerUpTime( const char *alarmVal );
 
 /*
  * Gets the value of the shutdown time ( the times that
  * determine when the pi should shutitself down ) 
  *
- * Input: shutdownNum - index of the shutdownNum
+ * @out - string of the next shutdown time (HH:MM)
  *
  * Returns true on success, putting the value in the 
  * shutdownVal pointer
  */
-bool getShutdown( int shutdownNum, char *shutdownVal );
+bool getShutDown( char *shutdownVal );
 
 /*
- * Sets the shutdown time for the shutdownNum number
+ * Sets the next shutdown time
+ *
+ * @param shutdownVal - time string (HH:MM)
  *
  * Returns true on success, false otherwise
  */
-bool setShutdown( int shutdownNum, const char *shutdownVal );
+bool setShutDown( const char *shutdownVal );
 

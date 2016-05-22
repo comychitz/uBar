@@ -1,60 +1,38 @@
-/* --- helper function declarations --- */
-void performShutdown( void );
-/* - end helper function delcarations - */
+#include "pipower.h"
+
 
 bool getStatus( void )
 {
   // TODO
-  
-  return true;
 }
 
-bool getTime( char *time )
+bool getTime( char *time );
 {
   // TODO
-
-  return true;
 }
 
-bool setTime( const char *time )
+bool setTime( const char *time );
 {
   // TODO
-
-  return true;
 }
 
-bool getAlarm( int alarmNum , char *alarmVal )
+bool getPowerUpTime( char *alarmVal );
 {
   // TODO
-
-  return true;
 }
 
-bool setAlarm( int alarmNum, const char *alarmVal )
+bool setPowerUpTime( const char *alarmVal );
 {
   // TODO
-
-  return true;
 }
 
-bool getShutdown( int shutdownNum, char *shutdownVal )
+bool getShutDown( char *shutdownVal );
 {
   // TODO
-  
-  return true;
 }
 
-bool setShutdown( int shutdownNum, const char *shutdownVal )
+bool setShutDown( const char *shutdownVal );
 {
   // TODO
-  
-  return true;
 }
 
-
-/* ----- helper functions ----- */
-void performShutdown( void )
-{
-  // TODO
-
-}
