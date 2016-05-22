@@ -8,5 +8,5 @@ A high level block diagram (to be added below) shows the µBar at the system lev
 It is planned that both iOS and Android applications be built. From the app users will be able to make drink orders based on custom input or choose a recipe based on the current inventory. 
 
 ###µBar Device
-The µBar device can be broken down into four main componenets: the main computing board (Linux-based embedded computer), the I/O board (valve & motor controllers), the chassis/hardware, and the touchscreen input device. 
+The µBar device can be broken down into four main componenets: the main computing board (Linux-based embedded computer), the I/O board (valve & motor controllers), the chassis/hardware, and the touchscreen input device. Most of the work for this project will be building the µBar device itself.
 
