@@ -61,7 +61,7 @@ bool setPowerUpTime( const char *alarmVal );
  * Returns true on success, putting the value in the 
  * shutdownVal pointer
  */
-bool getShutDown( char *shutdownVal );
+bool getShutDownTime( char *shutdownVal );
 
 /*
  * Sets the next shutdown time
@@ -70,5 +70,5 @@ bool getShutDown( char *shutdownVal );
  *
  * Returns true on success, false otherwise
  */
-bool setShutDown( const char *shutdownVal );
+bool setShutDownTime( const char *shutdownVal );
 

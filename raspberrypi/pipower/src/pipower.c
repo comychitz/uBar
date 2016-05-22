@@ -26,12 +26,12 @@ bool setPowerUpTime( const char *alarmVal );
   // TODO
 }
 
-bool getShutDown( char *shutdownVal );
+bool getShutDownTime( char *shutdownVal );
 {
   // TODO
 }
 
-bool setShutDown( const char *shutdownVal );
+bool setShutDownTime( const char *shutdownVal );
 {
   // TODO
 }
