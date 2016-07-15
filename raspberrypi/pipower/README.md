@@ -3,6 +3,8 @@ A C API for reading/writing between a custom external real time clock board and 
 
 ###Main APIs
 ```C
+bool setup( void );
+
 bool getStatus( void );
 
 bool getTime( char *time );

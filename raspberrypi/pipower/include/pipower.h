@@ -1,4 +1,5 @@
 #include <stdbool.h>
+
 /* ------------ function declarations of main API -------------- */
 
 /* 
