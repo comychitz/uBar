@@ -1,18 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <wiringPi.h>
 #include <stdbool.h>
-
-
 /* ------------ function declarations of main API -------------- */
 
 /* 
  * Gets the status of the pipower board (i.e. if its attached and
  * on and responding to our requests/data sent to it.
  *
- * Returns 1 if pipower board is connected and good to go
- * Returns 0 if pipower board is not detected or not responding
+ * Returns true if pipower board is connected and good to go
+ * Returns false if pipower board is not detected or not responding
  */
 bool getStatus( void );
 
