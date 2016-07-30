@@ -67,3 +67,8 @@ bool getShutDownTime( char *shutdownVal );
  */
 bool setShutDownTime( const char *shutdownVal );
 
+/*
+ * Get the error message 
+ */
+const char* getPiPowerErrMsg();
+ 
