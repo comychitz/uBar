@@ -10,4 +10,7 @@ It is planned that both iOS and Android applications be built. From the app user
 ###µBar Device
 The µBar device can be broken down into four main componenets: the main computing board (Linux-based embedded computer), the I/O board (valve & motor controllers), the chassis/hardware, and the touchscreen input device. Most of the work for this project will be building the µBar device itself.
 
+###Initial Version
+A video showcasing the first implementation of the uBar can be seen on [here on YouTube](https://www.youtube.com/watch?v=hmA4LdbyjqQ).
+
 ![prototype](https://github.com/comychitz/uBar/blob/master/files/design/original_prototype.png)
